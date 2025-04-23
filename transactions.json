@@ -1,0 +1,44 @@
+[
+    {
+        "amount": 50.0,
+        "type": "Expense",
+        "category": "Food",
+        "subcategory": "Groceries",
+        "date": "2025-04-23"
+    },
+    {
+        "amount": 100.0,
+        "type": "Income",
+        "category": "",
+        "subcategory": "",
+        "date": "2025-04-23"
+    },
+    {
+        "amount": 10.0,
+        "type": "Expense",
+        "category": "Food",
+        "subcategory": "Groceries",
+        "date": "2025-04-23"
+    },
+    {
+        "amount": 20.0,
+        "type": "Expense",
+        "category": "Entertainment",
+        "subcategory": "Movies",
+        "date": "2025-04-23"
+    },
+    {
+        "amount": 0.0,
+        "type": "Expense",
+        "category": "Utilities",
+        "subcategory": "Electricity",
+        "date": "2025-04-23"
+    },
+    {
+        "amount": 0.0,
+        "type": "Income",
+        "category": "",
+        "subcategory": "",
+        "date": "2025-04-23"
+    }
+]

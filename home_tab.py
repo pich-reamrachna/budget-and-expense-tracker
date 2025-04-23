@@ -153,8 +153,11 @@ class HomeTab:
             
             try:
                 amount = float(amount_str)
+                if amount == 0:
+                    show_warning("Amount cannot be zero!")
+                    return
             except ValueError:
-                print("Invalid amount format!")
+                show_warning("Invalid amount format!")
                 return
             
             category = ""
@@ -370,8 +373,6 @@ class HomeTab:
         def save_edited_transaction():
             new_amount = entry_amount.get().strip()
             new_transaction_type = transaction_type.get()
-            # new_category = category_var.get()
-            # new_subcategory = subcategory_var.get()
             new_date = date_picker.get()
 
             if not new_amount or not new_transaction_type or not new_date:
@@ -380,6 +381,9 @@ class HomeTab:
             
             try:
                 new_amount = float(new_amount)
+                if new_amount == 0:
+                    show_warning("Amount cannot be zero!")
+                    return
             except ValueError:
                 print("Invalid amount format!")
                 return  
