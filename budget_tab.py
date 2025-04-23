@@ -94,6 +94,11 @@ class BudgetTab:
         budget_window.geometry("300x250")
         budget_window.title("Set Budget")
 
+        budget_window.transient(self.app)  # Set the main app as its parent
+        budget_window.grab_set()           # Block interaction with main window until closed
+        budget_window.focus()              # Give focus to the new window
+        budget_window.lift()
+        
         budget_frame = CTkFrame(budget_window)
         budget_frame.pack(pady=10, padx=10, fill='both', expand=True)
 

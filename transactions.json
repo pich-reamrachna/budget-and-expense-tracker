@@ -26,19 +26,5 @@
         "category": "Entertainment",
         "subcategory": "Movies",
         "date": "2025-04-23"
-    },
-    {
-        "amount": 0.0,
-        "type": "Expense",
-        "category": "Utilities",
-        "subcategory": "Electricity",
-        "date": "2025-04-23"
-    },
-    {
-        "amount": 0.0,
-        "type": "Income",
-        "category": "",
-        "subcategory": "",
-        "date": "2025-04-23"
     }
 ]
