@@ -385,7 +385,7 @@ class HomeTab:
                     show_warning("Amount cannot be zero!")
                     return
             except ValueError:
-                print("Invalid amount format!")
+                show_warning("Invalid amount format!")
                 return  
             
             new_category = ""
